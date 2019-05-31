@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="510666b8b1f24337817fcb056caf3325" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="Ceng396_TermModel.AcademicMem" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.Faculty" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.sysdiagram" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.Comment" Width="1.5" PointX="5" PointY="4.5" />
+        <AssociationConnector Association="Ceng396_TermModel.FK_Comments_AcademicMem" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.Student1" Width="1.5" PointX="7.375" PointY="4" />
+        <AssociationConnector Association="Ceng396_TermModel.FK_Comments_Student1" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.CommentSection" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Ceng396_TermModel.Rate" Width="1.5" PointX="3.375" PointY="7.75" />
+        <AssociationConnector Association="Ceng396_TermModel.FK_Rate_AcademicMem" />
+        <AssociationConnector Association="Ceng396_TermModel.FK_Rate_Student1" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
